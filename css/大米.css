@@ -1,0 +1,167 @@
+/* head css start */
+.head{width: 100%; height: 40px; background: #323534}
+.head .head_box{width: 1210px; height: 40px; margin: 0 auto; color: #B3AFA9;}
+/* head_box_list css start */
+.head .head_box .head_box_list{float: left; height: 40px; }
+.head .head_box .head_box_list a{color: #B3AFA9; height: 40px; line-height: 40px; font-size: 10px; margin-right: 5px}
+.head .head_box .head_box_list a:hover{text-decoration: none; color: #fff}
+.head .head_box .head_box_list span{margin-right: 5px}
+/* head_box_list css end */
+
+/* head_box_sidebar css start */
+.head .head_box .head_box_sidebar{float: right; color: #B3AFA9;}
+.head .head_box .head_box_sidebar .head_box_sidebar_one{height: 40px; line-height: 40px;float: left}
+.head .head_box .head_box_sidebar .head_box_sidebar_one a{ height: 40px; line-height: 40px; color: #B3AFA9; margin-right: 5px}
+.head .head_box .head_box_sidebar .head_box_sidebar_one a:hover{text-decoration: none; color: #fff}
+.head .head_box .head_box_sidebar .head_box_sidebar_one span{margin-right: 5px}
+.head .head_box .head_box_sidebar .head_box_sidebar_two{height: 40px; width: 120px;float: right; line-height: 40px; margin-left: 20px; background: #444343}
+.head .head_box .head_box_sidebar .head_box_sidebar_two a{color: #B3AFA9; text-decoration: none; padding-left: 20px}
+/* head_box_sidebar css end */
+/* head css end */
+
+/* nav css start */
+.nav{width: 100%; height: 105px;}
+.nav .nav_box{width: 1225px; height: 105px; margin: 0 auto; border-bottom: 1px solid #323534}
+.nav .nav_box .nav_box_left{height: 105px; float: left;}
+.nav .nav_box .nav_box_left img{width: 50px; height: 50px; margin-top: 25px}
+.nav .nav_box .nav_box_middle{float: left;width: 600px; height: 105px; margin-left: 180px;}
+.nav .nav_box .nav_box_middle ul li{float: left; margin-left: 25px; height: 105px; line-height: 105px;}
+.nav .nav_box .nav_box_right{height: 105px;float: right;}
+.nav .nav_box .nav_box_right .search{float: left}
+.nav .nav_box .nav_box_right .search input{height: 50px; margin-top: 25px}
+.nav .nav_box .nav_box_right .but{float: left; font-size: 20px; font-weight: bold; border: 1px solid #B3AFA9; width: 50px; height: 52px; margin-top: 25px; text-align: center;line-height: 52px}
+/* nav css end */
+
+/* bigbav css start */
+.bigbav{width: 1225px; height: 460px; margin: 10px auto 0; position: relative; overflow: hidden}
+/* bigbav_list css start */
+.bigbav .bigbav_list{width: 235px; height: 100%; background: #323534; opacity: 0.8; z-index: 1 ;position: absolute; top: 0; left: 0; }
+.bigbav .bigbav_list ul{padding-top: 28px}
+.bigbav .bigbav_list li{line-height: 40px; width: 200px; height: 40px}
+.bigbav .bigbav_list li .list{color: #fff; float: left; margin-left: 30px; font-size: 13px}
+.bigbav .bigbav_list li .list:hover{text-decoration: none}
+.bigbav .bigbav_list li .arrow{color: #fff; float: right}
+.bigbav .bigbav_list li .arrow:hover{text-decoration: none}
+/* bigbav_list css end */
+/* bigbav_imgs css start */
+.bigbav_imgs{width: 1225px; height: 100%; position: absolute; top: 0; left: 0;}
+.bigbav_imgs ul{width: 3675px; height: 100%}
+.bigbav_imgs ul li{width: 1225px; height: 100%; float: left; cursor: pointer;}
+/* bigbav_imgs css end */
+/* bigbav css end */
+
+/* middlenav css start */
+.middlenav{width: 100%; height: 170px; margin-top: 25px}
+.middlenav .middlenav_box{width: 1225px; height: 170px; margin: 0 auto;}
+/* middlenav_box_list css start */
+.middlenav .middlenav_box .middlenav_box_list{float: left; background: #62564C; width: 233px; height: 170px}
+.middlenav .middlenav_box .middlenav_box_list div{float: left; width: 70px; height: 70px; color: #fff; font-size: 14px;}
+.middlenav .middlenav_box .middlenav_box_list .list_lefttop{border-bottom: 1px solid rgb(202, 197, 197); border-right: 1px solid rgb(202, 197, 197); margin-top: 5px; margin-left: 2px}
+.middlenav .middlenav_box .middlenav_box_list .list_middletop{border-bottom: 1px solid rgb(202, 197, 197); border-left: 1px solid rgb(202, 197, 197); border-right: 1px solid rgb(202, 197, 197); margin-top: 5px; margin-left: 7px}
+.middlenav .middlenav_box .middlenav_box_list .list_righttop{border-left: 1px solid rgb(202, 197, 197); border-bottom: 1px solid rgb(202, 197, 197); margin-top: 5px; margin-left: 7px}
+.middlenav .middlenav_box .middlenav_box_list .list_leftbottom{border-top: 1px solid rgb(202, 197, 197); border-right: 1px solid rgb(202, 197, 197); margin-left: 2px; margin-top: 17px}
+.middlenav .middlenav_box .middlenav_box_list .list_middlebottom{border-top: 1px solid rgb(202, 197, 197); border-right: 1px solid rgb(202, 197, 197); border-left: 1px solid rgb(202, 197, 197);margin-left: 7px; margin-top: 17px}
+.middlenav .middlenav_box .middlenav_box_list .list_rightbottom{border-top: 1px solid rgb(202, 197, 197); border-left: 1px solid rgb(202, 197, 197); margin-left: 7px; margin-top: 17px}
+.middlenav .middlenav_box .middlenav_box_list li{list-style-type: none; text-align: center}
+.middlenav .middlenav_box .middlenav_box_list .li_top{margin-top: 10px}
+.middlenav .middlenav_box .middlenav_box_list .li_bottom{margin-top: 18px}
+/* middlenav_box_list css start */
+/* middlenav_box_imgs css start */
+.middlenav .middlenav_box .middlenav_box_imgs{width: 315px; height: 100%; float: left; margin-left: 15px}
+/* middlenav_box_imgs css end */
+/* middlenav css end */
+
+/* middle nav two css start */
+.middlenavtwo{width: 100%; height: 350px; list-style-type: none}
+/* middlenavtwo_top css start */
+.middlenavtwo .middlenavtwo_top{width: 1225px; height: 40px; margin: 0 auto; margin-top: 15px}
+.middlenavtwo .middlenavtwo_top .middlenavtwo_top_left{height: 100%; float: left; line-height: 40px; font-size: 25px; color: rgb(121, 117, 117);}
+.middlenavtwo .middlenavtwo_top .middlenavtwo_top_right{height: 100%; float: right}
+.middlenavtwo .middlenavtwo_top .middlenavtwo_top_right li{float: left; border: 1px solid rgb(167, 164, 163); margin-top: 8px; width: 50px; height: 25px}
+.middlenavtwo .middlenavtwo_top .middlenavtwo_top_right li a{font-size: 20px; color: rgb(167, 164, 163); margin-left: 15px}
+.middlenavtwo .middlenavtwo_top .middlenavtwo_top_right li a:hover{text-decoration: none}
+/* middlenavtwo_top css end */
+/* middlenavtwo_bottom css start */
+.middlenavtwo_bottom{width: 1225px; height: 310px; margin: 0 auto; margin-top: 5px}
+.middlenavtwo_bottom div{width: 235px; height: 100%; float: left; background: #FAFAF9}
+.middlenavtwo_bottom .middlenavtwo_bottom_box_one{border-top: 1px solid red}
+.middlenavtwo_bottom .middlenavtwo_bottom_box_two{border-top: 1px solid red; margin-left: 10px}
+.middlenavtwo_bottom .middlenavtwo_bottom_box_three{border-top: 1px solid rgb(168, 235, 106); margin-left: 10px}
+.middlenavtwo_bottom .middlenavtwo_bottom_box_four{border-top: 1px solid blue; margin-left: 10px}
+.middlenavtwo_bottom .middlenavtwo_bottom_box_five{border-top: 1px solid blue; margin-left: 10px}
+.middlenavtwo_bottom div img{margin-top: 20px; margin-left: 35px}
+.middlenavtwo_bottom div li{text-align: center}
+.middlenavtwo_bottom div li a{color: black;}
+.middlenavtwo_bottom div li a:hover{text-decoration: none; color: black}
+.middlenavtwo_bottom div .middlenavtwo_bottom_list_top{margin-top: 20px; font-size: 15px}
+.middlenavtwo_bottom div .middlenavtwo_bottom_list_bottom{margin-top: 15px; color: rgb(146, 143, 143); font-size: 15px}
+/* middlenavtwo_bottom css end */
+/* middle nav two css end */
+
+/* bottom nav css start */
+.bottomnav{width: 1250px; height: 396px; background: #F6F5F4; margin: 50px auto 10px; list-style-type: none}
+.bottomnav .bottomnav_top{width: 1230px; height: 55px; margin: 20px auto 10px;}
+.bottomnav .bottomnav_top li{height: 55px; font-size: 25px; line-height: 55px;color: rgb(97, 95, 95); padding-top: 10px}
+.bottomnav .bottomnav_bottom{width: 1230px; height: 305px; margin: 20px auto;}
+.bottomnav .bottomnav_bottom .bottomnav_bottom_one{width: 235px; height: 100%; float: left; background: rgb(233, 232, 231)}
+.bottomnav .bottomnav_bottom .bottomnav_bottom_one li{margin-top: 10px; margin-left: 40px; color: rgb(88, 87, 87)}
+.bottomnav .bottomnav_bottom .bottomnav_bottom_one .li_one{margin-top: 55px}
+.bottomnav .bottomnav_bottom .bottomnav_bottom_one .li_one a{font-size: 30px; color: #000}
+.bottomnav .bottomnav_bottom .bottomnav_bottom_one .li_one a:hover{text-decoration: none; color: #000}
+.bottomnav .bottomnav_bottom .bottomnav_bottom_one li span{color: rgb(49, 214, 49)}
+.bottomnav .bottomnav_bottom .bottomnav_bottom_one li .one{font-size: 30px}
+.bottomnav .bottomnav_bottom .bottomnav_bottom_two{width: 235px; height: 100%; float: left; background: #fff; text-align: center; margin-left: 11px;}
+.bottomnav .bottomnav_bottom .li_top{margin-top: 10px}
+.bottomnav .bottomnav_bottom .li_top a{color: #000}
+.bottomnav .bottomnav_bottom .li_top a:hover{text-decoration: none}
+.bottomnav .bottomnav_bottom .li_middle{font-size: 10px; margin-top: 5px; color: rgb(97, 95, 95)}
+.bottomnav .bottomnav_bottom .li_bottom{color: rgb(228, 56, 56); margin-top: 5px}
+/* bottom nav css end */
+
+/* footlist css satrt */
+.footlist{ width: 1260px; height: 380px; margin: 5px auto 0;}
+/* footlist_top css start */
+.footlist .footlist_top{width: 100%; height: 80px; background: #F6F5F4}
+/* footlist_top css end */
+/* footlist_middle css start */
+.footlist .footlist_middle{width: 1228px; height: 80px; margin: 0 auto;border-bottom: 1px solid rgb(148, 144, 144)}
+.footlist .footlist_middle div{width: 955px; height: 100%; margin: 0 auto; line-height: 80px; color: rgb(148, 144, 144);}
+.footlist .footlist_middle div a{color: rgb(97, 95, 95)}
+.footlist .footlist_middle div a:hover{text-decoration: none}
+.footlist .footlist_middle div span{margin-left: 45px; margin-right: 45px; font-size: 20px}
+/* footlist_middle css end */
+/* footlist_bottom css start */
+.footlist_bottom{width: 1228px; height: 217px; margin: 0 auto;  list-style-type: none;}
+.footlist_bottom .footlist_bottom_left{height: 100%; float: left;}
+.footlist_bottom .footlist_bottom_left div{height: 100%; width: 110px; float: left; text-align: center; margin-left: 80px;}
+.footlist_bottom .footlist_bottom_left div li{margin-top: 15px}
+.footlist_bottom .footlist_bottom_left div .li_text{margin-top: 45px}
+.footlist_bottom .footlist_bottom_left div li a{font-size: 13px; color: rgb(145, 143, 143)}
+.footlist_bottom .footlist_bottom_left div li a:hover{text-decoration: none;}
+.footlist_bottom .footlist_bottom_right{width: 258px; height: 100%; float: right; text-align: center;}
+.footlist_bottom .footlist_bottom_right div{width: 100%; height: 130px; border-left: 1px solid rgb(145, 143, 143); margin-top: 45px}
+.footlist_bottom .footlist_bottom_right div li{margin-top: 10px; font-size: 13px}
+.footlist_bottom .footlist_bottom_right div .li_phone{font-size: 20px; color: rgb(204, 111, 5)}
+.footlist_bottom .footlist_bottom_right div .li_but{width: 120px; height: 30px; border: 1px solid rgb(204, 111, 5); margin: 10px auto; line-height: 30px}
+.footlist_bottom .footlist_bottom_right div .li_but a{color: rgb(204, 111, 5)}
+.footlist_bottom .footlist_bottom_right div .li_but a:hover{text-decoration: none}
+/* footlist_bottom css end */
+
+/* footer css start */
+.footer{width: 100%; height: 80px; background: #F6F5F4;}
+.footer .footer_box{width: 1228px; height: 80px; margin: 0 auto;}
+.footer .footer_box .footer_box_imgs{float: left; margin-top: 22px; margin-right: 10px}
+.footer .footer_box .footer_box_list{float: left; margin-top: 20px}
+.footer .footer_box .footer_box_list a{font-size: 10px; color: rgb(145, 143, 143)}
+.footer .footer_box .footer_box_list a:hover{text-decoration: none}
+.footer .footer_box .footer_box_list span{font-size: 10px; color: rgb(145, 143, 143)}
+/* footer css end */
+/* footlist css end */
+
+
+
+
+
+
+
+
